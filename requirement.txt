@@ -1,4 +1,10 @@
-1. ipykernel
+ipykernel
 numpy
-pandas
-bs4
+panda
+matplotlib
+seaborn
+flask
+memory_profiler
+streamlit
+scikit-learn
+
