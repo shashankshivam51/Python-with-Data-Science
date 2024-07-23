@@ -1,0 +1,83 @@
+This file outlines the project's objectives, dependencies, and instructions for setup and usage.
+
+```markdown
+# Economic Index Analysis
+
+This repository contains a Python project for analyzing economic indicators such as interest rates and unemployment rates. The project includes data preprocessing, visualization, correlation analysis, model training, and evaluation using a Linear Regression model.
+
+## Project Structure
+
+- `economic_index.csv`: Dataset containing economic indicators.
+- `analysis.ipynb`: Jupyter Notebook with data analysis, visualization, and model training.
+
+## Dependencies
+
+- Python 3.x
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- statsmodels
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/economic-index-analysis.git
+cd economic-index-analysis
+```
+
+2. Install the required packages:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn statsmodels
+```
+
+3. Open the Jupyter Notebook:
+
+```bash
+jupyter notebook analysis.ipynb
+```
+
+## Usage
+
+1. **Data Preprocessing:**
+   - Load the dataset and drop unnecessary columns.
+   - Check for null values.
+
+2. **Data Visualization:**
+   - Pairplot of all features.
+   - Correlation matrix.
+   - Scatter plot between interest rate and unemployment rate.
+
+3. **Model Training:**
+   - Split the dataset into training and testing sets.
+   - Standardize the features.
+   - Train a Linear Regression model.
+   - Evaluate the model using cross-validation.
+
+4. **Model Evaluation:**
+   - Predict the test set results.
+   - Calculate performance metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared.
+   - Plot residuals and check the assumptions of the Linear Regression model.
+   - Display the Ordinary Least Squares (OLS) regression summary using statsmodels.
+
+## Results
+
+- Model coefficients.
+- Performance metrics (MSE, MAE, RMSE, R-squared).
+- Residuals analysis.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+For any inquiries, please contact shashankshivam51@gmail.com
+
