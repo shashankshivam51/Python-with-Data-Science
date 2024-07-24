@@ -1,0 +1,78 @@
+
+polynomial regression analysis
+
+this repository contains a python project for analyzing the relationship between variables using polynomial regression. the project includes data generation, visualization, model training, and evaluation.
+
+project structure
+
+- analysis.ipynb: jupyter notebook with data generation, analysis, visualization, and model training.
+
+dependencies
+
+- python 3.x
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+
+setup
+
+1. clone the repository:
+
+```bash
+git clone https://github.com/yourusername/polynomial-regression-analysis.git
+cd polynomial-regression-analysis
+```
+
+2. install the required packages:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn
+```
+
+3. open the jupyter notebook:
+
+```bash
+jupyter notebook analysis.ipynb
+```
+
+usage
+
+import libraries:
+- import necessary libraries including numpy, pandas, matplotlib, and scikit-learn.
+- generate a dataset and visualize it using scatter plots.
+
+train test split:
+- split the dataset into training and testing sets.
+
+simple linear regression:
+- implement and train a simple linear regression model.
+- evaluate the model and visualize the results.
+
+polynomial transformation:
+- apply polynomial transformation to the data.
+- train polynomial regression models with different degrees.
+- evaluate and visualize the models.
+
+pipeline:
+- create a pipeline for polynomial regression.
+- train and visualize the model using the pipeline.
+
+results
+
+- visualization of the dataset.
+- model coefficients and intercept.
+- performance metrics (r-squared score).
+- comparison of polynomial regression models with different degrees.
+
+license
+
+this project is licensed under the mit license.
+
+contributing
+
+contributions are welcome! please feel free to submit a pull request.
+
+contact
+
+for any inquiries, please contact [shashankshivam51@gmail.com](https://github.com/shashankshivam)
