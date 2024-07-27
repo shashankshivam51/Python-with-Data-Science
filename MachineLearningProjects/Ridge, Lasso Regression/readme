@@ -1,0 +1,103 @@
+To create a detailed README file for your GitHub repository that includes information about your dataset and Jupyter notebook, here's a template that you can customize:
+
+```markdown
+# Algerian Forest Fires Analysis and Model Training
+
+This repository contains an analysis and model training on the Algerian forest fires dataset. The project aims to explore the dataset, perform data cleaning, visualize the data, and train predictive models.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Model Training](#model-training)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+Forest fires pose a significant threat to the environment and human life. This project analyzes the forest fire data from Algeria to understand the factors contributing to fire occurrences and build predictive models to anticipate future fires.
+
+## Dataset
+The dataset used in this project is `Algerian_forest_fires_cleaned_dataset.csv`. It contains data on various meteorological and geographical factors related to forest fires in Algeria.
+
+### Features:
+- **Date**: Date of the observation.
+- **Temperature**: Temperature in Celsius.
+- **RH**: Relative humidity in percentage.
+- **Ws**: Wind speed in km/h.
+- **Rain**: Rainfall in mm.
+- **FFMC**: Fine Fuel Moisture Code.
+- **DMC**: Duff Moisture Code.
+- **DC**: Drought Code.
+- **ISI**: Initial Spread Index.
+- **BUI**: Buildup Index.
+- **FWI**: Fire Weather Index.
+- **Classes**: Indicates fire occurrence (fire/no fire).
+
+## Requirements
+To run the code in this repository, you need the following Python libraries:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+
+You can install the required libraries using:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+## Usage
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Algerian-Forest-Fires.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Algerian-Forest-Fires
+    ```
+3. Open the Jupyter notebook:
+    ```bash
+    jupyter notebook Model-Training.ipynb
+    ```
+
+## Exploratory Data Analysis
+The notebook `Model-Training.ipynb` includes comprehensive EDA, where we visualize the distribution of features, correlations between variables, and trends over time.
+
+## Model Training
+The notebook also covers the training of various machine learning models to predict forest fire occurrences. The steps include:
+- Data preprocessing
+- Feature selection
+- Model training
+- Model evaluation
+
+## Results
+The models are evaluated based on accuracy, precision, recall, and F1-score. Visualizations of the model performance and feature importance are provided.
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or feedback, please contact:
+- Shashank Shivam: [shashankshivam51@gmail.com](mailto:shashankshivam51@gmail.com
